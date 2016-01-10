@@ -11,8 +11,15 @@
 		91087E481C3D66F000E4D6B4 /* AboutMetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91087E471C3D66F000E4D6B4 /* AboutMetableViewController.swift */; };
 		91087E4A1C3DF92200E4D6B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91087E491C3DF92200E4D6B4 /* Images.xcassets */; };
 		91087E9D1C3F8AC400E4D6B4 /* BackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91087E9C1C3F8AC400E4D6B4 /* BackGround.swift */; };
+		9116441E1C422A1B00F9777F /* CookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116441C1C422A1B00F9777F /* CookTableViewCell.swift */; };
+		9116441F1C422A1B00F9777F /* CookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9116441D1C422A1B00F9777F /* CookTableViewCell.xib */; };
+		911644221C4241B000F9777F /* vagetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911644211C4241B000F9777F /* vagetable.swift */; };
+		911644261C4249F400F9777F /* vageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911644251C4249F400F9777F /* vageList.swift */; };
+		911644281C4264FC00F9777F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911644271C4264FC00F9777F /* CustomCell.swift */; };
 		91B574291C3FF23C0074D8B9 /* AboutMeNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B574281C3FF23C0074D8B9 /* AboutMeNavController.swift */; };
 		91B5742B1C41FF310074D8B9 /* CookOnlieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B5742A1C41FF310074D8B9 /* CookOnlieTableViewController.swift */; };
+		91D4BF251C42939700A04A4E /* CookMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D4BF241C42939700A04A4E /* CookMovieViewController.swift */; };
+		91D4BF271C4299AD00A04A4E /* ForCookNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D4BF261C4299AD00A04A4E /* ForCookNavController.swift */; };
 		91E1BF2D1C377CBB00D15B41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E1BF2C1C377CBB00D15B41 /* AppDelegate.swift */; };
 		91E1BF2F1C377CBB00D15B41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E1BF2E1C377CBB00D15B41 /* ViewController.swift */; };
 		91E1BF321C377CBB00D15B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E1BF301C377CBB00D15B41 /* Main.storyboard */; };
@@ -25,8 +32,15 @@
 		91087E471C3D66F000E4D6B4 /* AboutMetableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMetableViewController.swift; path = ../AboutMetableViewController.swift; sourceTree = "<group>"; };
 		91087E491C3DF92200E4D6B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91087E9C1C3F8AC400E4D6B4 /* BackGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackGround.swift; path = ../BackGround.swift; sourceTree = "<group>"; };
+		9116441C1C422A1B00F9777F /* CookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CookTableViewCell.swift; path = ../CookTableViewCell.swift; sourceTree = "<group>"; };
+		9116441D1C422A1B00F9777F /* CookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CookTableViewCell.xib; path = ../CookTableViewCell.xib; sourceTree = "<group>"; };
+		911644211C4241B000F9777F /* vagetable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vagetable.swift; sourceTree = "<group>"; };
+		911644251C4249F400F9777F /* vageList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = vageList.swift; path = ../vageList.swift; sourceTree = "<group>"; };
+		911644271C4264FC00F9777F /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ../CustomCell.swift; sourceTree = "<group>"; };
 		91B574281C3FF23C0074D8B9 /* AboutMeNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMeNavController.swift; path = ../AboutMeNavController.swift; sourceTree = "<group>"; };
 		91B5742A1C41FF310074D8B9 /* CookOnlieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CookOnlieTableViewController.swift; path = ../CookOnlieTableViewController.swift; sourceTree = "<group>"; };
+		91D4BF241C42939700A04A4E /* CookMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CookMovieViewController.swift; path = ../CookMovieViewController.swift; sourceTree = "<group>"; };
+		91D4BF261C4299AD00A04A4E /* ForCookNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForCookNavController.swift; path = ../ForCookNavController.swift; sourceTree = "<group>"; };
 		91E1BF291C377CBB00D15B41 /* vagetableSale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vagetableSale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E1BF2C1C377CBB00D15B41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91E1BF2E1C377CBB00D15B41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,8 +70,31 @@
 				91087E011C3CF4F900E4D6B4 /* tabBarController.swift */,
 				91087E471C3D66F000E4D6B4 /* AboutMetableViewController.swift */,
 				91B5742A1C41FF310074D8B9 /* CookOnlieTableViewController.swift */,
+				9116441C1C422A1B00F9777F /* CookTableViewCell.swift */,
+				9116441D1C422A1B00F9777F /* CookTableViewCell.xib */,
+				91D4BF241C42939700A04A4E /* CookMovieViewController.swift */,
+				91E1BF2C1C377CBB00D15B41 /* AppDelegate.swift */,
+				91D4BF261C4299AD00A04A4E /* ForCookNavController.swift */,
+				911644201C42415C00F9777F /* Modal */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		911644201C42415C00F9777F /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				911644211C4241B000F9777F /* vagetable.swift */,
+				911644251C4249F400F9777F /* vageList.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		91ABF4911C4268E20002F892 /* NoUse */ = {
+			isa = PBXGroup;
+			children = (
+				911644271C4264FC00F9777F /* CustomCell.swift */,
+			);
+			name = NoUse;
 			sourceTree = "<group>";
 		};
 		91E1BF201C377CBB00D15B41 = {
@@ -80,8 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				91087E9B1C3F8A8100E4D6B4 /* ViewController */,
-				91E1BF2C1C377CBB00D15B41 /* AppDelegate.swift */,
 				91E1BF301C377CBB00D15B41 /* Main.storyboard */,
+				91ABF4911C4268E20002F892 /* NoUse */,
 				91E1BF331C377CBB00D15B41 /* Assets.xcassets */,
 				91E1BF351C377CBB00D15B41 /* LaunchScreen.storyboard */,
 				91E1BF381C377CBB00D15B41 /* Info.plist */,
@@ -152,6 +189,7 @@
 				91E1BF371C377CBB00D15B41 /* LaunchScreen.storyboard in Resources */,
 				91087E4A1C3DF92200E4D6B4 /* Images.xcassets in Resources */,
 				91E1BF341C377CBB00D15B41 /* Assets.xcassets in Resources */,
+				9116441F1C422A1B00F9777F /* CookTableViewCell.xib in Resources */,
 				91E1BF321C377CBB00D15B41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,9 +202,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				91E1BF2F1C377CBB00D15B41 /* ViewController.swift in Sources */,
+				9116441E1C422A1B00F9777F /* CookTableViewCell.swift in Sources */,
+				911644281C4264FC00F9777F /* CustomCell.swift in Sources */,
+				91D4BF271C4299AD00A04A4E /* ForCookNavController.swift in Sources */,
+				91D4BF251C42939700A04A4E /* CookMovieViewController.swift in Sources */,
 				91B5742B1C41FF310074D8B9 /* CookOnlieTableViewController.swift in Sources */,
+				911644221C4241B000F9777F /* vagetable.swift in Sources */,
 				91B574291C3FF23C0074D8B9 /* AboutMeNavController.swift in Sources */,
 				91087E9D1C3F8AC400E4D6B4 /* BackGround.swift in Sources */,
+				911644261C4249F400F9777F /* vageList.swift in Sources */,
 				91087E021C3CF4F900E4D6B4 /* tabBarController.swift in Sources */,
 				91087E481C3D66F000E4D6B4 /* AboutMetableViewController.swift in Sources */,
 				91E1BF2D1C377CBB00D15B41 /* AppDelegate.swift in Sources */,
