@@ -577,12 +577,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HRi-cy-bgE">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="70"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HRi-cy-bgE">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfc-2z-C9Z">
-                                        <rect key="frame" x="269" y="20" width="39" height="30"/>
-                                        <state key="normal" title="Close">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfc-2z-C9Z">
+                                        <rect key="frame" x="257" y="10" width="86" height="30"/>
+                                        <state key="normal" title="Back to 菜譜">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
@@ -591,14 +591,36 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="01L-7d-OY3"/>
+                                    <constraint firstItem="Pfc-2z-C9Z" firstAttribute="centerY" secondItem="HRi-cy-bgE" secondAttribute="centerY" id="Br9-xo-nld"/>
+                                    <constraint firstItem="Pfc-2z-C9Z" firstAttribute="centerX" secondItem="HRi-cy-bgE" secondAttribute="centerX" id="juG-9E-q9e"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eOG-hF-M9v">
+                                <rect key="frame" x="0.0" y="50" width="600" height="550"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eOG-hF-M9v" firstAttribute="top" secondItem="HRi-cy-bgE" secondAttribute="bottom" id="2qI-23-xuQ"/>
+                            <constraint firstItem="eOG-hF-M9v" firstAttribute="leading" secondItem="Vh1-Pf-GuL" secondAttribute="leadingMargin" constant="-20" id="6Je-cs-yLc"/>
+                            <constraint firstItem="OHz-fz-Gfd" firstAttribute="top" secondItem="eOG-hF-M9v" secondAttribute="bottom" id="Cyl-On-56B"/>
+                            <constraint firstItem="HRi-cy-bgE" firstAttribute="centerX" secondItem="Vh1-Pf-GuL" secondAttribute="centerX" id="D3x-d8-BFH"/>
+                            <constraint firstItem="HRi-cy-bgE" firstAttribute="top" secondItem="4br-gy-kdg" secondAttribute="bottom" constant="-20" id="Evv-4p-xDy"/>
+                            <constraint firstItem="HRi-cy-bgE" firstAttribute="leading" secondItem="Vh1-Pf-GuL" secondAttribute="leadingMargin" constant="-20" id="di2-yk-OZB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HRi-cy-bgE" secondAttribute="trailing" constant="-20" id="rfD-XJ-dsW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eOG-hF-M9v" secondAttribute="trailing" constant="-20" id="z9h-0o-ect"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="viewInWeb" destination="eOG-hF-M9v" id="ios-Df-db4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldg-iU-JUo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-360" y="1418"/>
+            <point key="canvasLocation" x="-291" y="1418"/>
         </scene>
         <!--我的-->
         <scene sceneID="C7G-W1-X8o">
