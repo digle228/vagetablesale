@@ -8,11 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+    var pickerView = PickPeopleNumber()
+    
+    
+    pickerTextField.inputView = pickerView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        
+        
+        
 //        self.view = BackGround()
         // Do any additional setup after loading the view, typically from a nib.
         

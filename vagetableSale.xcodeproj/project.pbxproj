@@ -25,9 +25,13 @@
 		91E1BF321C377CBB00D15B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E1BF301C377CBB00D15B41 /* Main.storyboard */; };
 		91E1BF341C377CBB00D15B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E1BF331C377CBB00D15B41 /* Assets.xcassets */; };
 		91E1BF371C377CBB00D15B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E1BF351C377CBB00D15B41 /* LaunchScreen.storyboard */; };
+		91F7FF9E1C43F31F00B50E66 /* PickPeopleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F7FF9D1C43F31F00B50E66 /* PickPeopleNumber.swift */; };
+		CF1545AB372910D967A26A60 /* Pods_vagetableSale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C4C8A5CD4F74564D1CD322 /* Pods_vagetableSale.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26A9724A3E6AAB56215AB04E /* Pods-vagetableSale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vagetableSale.release.xcconfig"; path = "Pods/Target Support Files/Pods-vagetableSale/Pods-vagetableSale.release.xcconfig"; sourceTree = "<group>"; };
+		26CE6A52687AB00F16612A16 /* Pods-vagetableSale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vagetableSale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vagetableSale/Pods-vagetableSale.debug.xcconfig"; sourceTree = "<group>"; };
 		91087E011C3CF4F900E4D6B4 /* tabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tabBarController.swift; path = ../tabBarController.swift; sourceTree = "<group>"; };
 		91087E471C3D66F000E4D6B4 /* AboutMetableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMetableViewController.swift; path = ../AboutMetableViewController.swift; sourceTree = "<group>"; };
 		91087E491C3DF92200E4D6B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 		91E1BF331C377CBB00D15B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E1BF361C377CBB00D15B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91E1BF381C377CBB00D15B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F7FF9D1C43F31F00B50E66 /* PickPeopleNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickPeopleNumber.swift; sourceTree = "<group>"; };
+		B1C4C8A5CD4F74564D1CD322 /* Pods_vagetableSale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vagetableSale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +61,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1545AB372910D967A26A60 /* Pods_vagetableSale.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36AB6A5D66BAF2C9B31D6581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1C4C8A5CD4F74564D1CD322 /* Pods_vagetableSale.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55DC0E67D408CB2DFF649D39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26CE6A52687AB00F16612A16 /* Pods-vagetableSale.debug.xcconfig */,
+				26A9724A3E6AAB56215AB04E /* Pods-vagetableSale.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		91087E9B1C3F8A8100E4D6B4 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +100,7 @@
 				91D4BF261C4299AD00A04A4E /* ForCookNavController.swift */,
 				91D4BF241C42939700A04A4E /* CookMovieViewController.swift */,
 				911644201C42415C00F9777F /* Modal */,
+				91F7FF9D1C43F31F00B50E66 /* PickPeopleNumber.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -102,6 +127,8 @@
 			children = (
 				91E1BF2B1C377CBB00D15B41 /* vagetableSale */,
 				91E1BF2A1C377CBB00D15B41 /* Products */,
+				55DC0E67D408CB2DFF649D39 /* Pods */,
+				36AB6A5D66BAF2C9B31D6581 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91E1BF3B1C377CBB00D15B41 /* Build configuration list for PBXNativeTarget "vagetableSale" */;
 			buildPhases = (
+				30A2321DFA8E2EC3829A805D /* Check Pods Manifest.lock */,
 				91E1BF251C377CBB00D15B41 /* Sources */,
 				91E1BF261C377CBB00D15B41 /* Frameworks */,
 				91E1BF271C377CBB00D15B41 /* Resources */,
+				D5BF423996827125A50817AC /* Embed Pods Frameworks */,
+				F04DC0BB1E9F0CF32C733B6D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +226,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30A2321DFA8E2EC3829A805D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5BF423996827125A50817AC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vagetableSale/Pods-vagetableSale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04DC0BB1E9F0CF32C733B6D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vagetableSale/Pods-vagetableSale-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		91E1BF251C377CBB00D15B41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -207,6 +285,7 @@
 				91D4BF271C4299AD00A04A4E /* ForCookNavController.swift in Sources */,
 				91D4BF251C42939700A04A4E /* CookMovieViewController.swift in Sources */,
 				91B5742B1C41FF310074D8B9 /* CookOnlieTableViewController.swift in Sources */,
+				91F7FF9E1C43F31F00B50E66 /* PickPeopleNumber.swift in Sources */,
 				911644221C4241B000F9777F /* vagetable.swift in Sources */,
 				91B574291C3FF23C0074D8B9 /* AboutMeNavController.swift in Sources */,
 				91087E9D1C3F8AC400E4D6B4 /* BackGround.swift in Sources */,
@@ -322,6 +401,7 @@
 		};
 		91E1BF3C1C377CBB00D15B41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CE6A52687AB00F16612A16 /* Pods-vagetableSale.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -337,6 +417,7 @@
 		};
 		91E1BF3D1C377CBB00D15B41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A9724A3E6AAB56215AB04E /* Pods-vagetableSale.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
